@@ -3,6 +3,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import About from './components/About';
 
 
 const MyComponent: React.FC = () => {
@@ -13,10 +14,11 @@ const MyComponent: React.FC = () => {
     AOS.refresh();
   }, []);
   return (
-    <main className='bg-white'>
+    <>
         <Navbar />
         <Hero />
-    </main>
+        <About />
+    </>
   );
 };
 

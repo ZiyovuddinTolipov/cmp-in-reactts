@@ -10,7 +10,9 @@
     box-sizing: border-box;
     font-family: "Work Sans", sans-serif;
 }
-
+body {
+    background:#fff !important;
+}
 .hero::after {
     content: "";
     width: 400px;
