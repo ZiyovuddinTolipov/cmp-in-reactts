@@ -14,7 +14,7 @@ const Hero = () => {
                     The sky was cloudless and of a deep dark blue the spectacle before us was indeed sublime.
                 </p>
                 <div data-aos="fade-right" data-aos-duration="2200">
-                    <p className="btn btn-accent text-white mt-10" > Explore</p>
+                    <p className="btn btn-warning text-white mt-10" > Explore</p>
                 </div>
             </div>
             <div className="w-1/2 relative z-10">
