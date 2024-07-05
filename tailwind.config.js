@@ -23,6 +23,7 @@ export default {
       fontFamily:{
         Syne:"Syne",
         Poppins:"Poppins",
+        WorkSans:"Work Sans",
       }
     },
   },
