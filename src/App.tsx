@@ -1,6 +1,8 @@
 import { useEffect } from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
 
 
 const MyComponent: React.FC = () => {
@@ -11,8 +13,9 @@ const MyComponent: React.FC = () => {
     AOS.refresh();
   }, []);
   return (
-    <main>
-      
+    <main className='bg-white'>
+        <Navbar />
+        <Hero />
     </main>
   );
 };
