@@ -1,7 +1,7 @@
 
 const Navbar = () => {
     return (
-        <div className="max-w-[1200px] mx-auto flex justify-between items-center py-4">
+        <div className="max-w-[1200px] mx-auto flex justify-between items-center py-4 z-10 relative">
             <ul className="flex gap-2 items-center text-primary-50 font-medium">
                 <li className="text-3xl font-bold">CMP</li>
                 <li>About</li>
