@@ -4,7 +4,8 @@ import 'aos/dist/aos.css';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
-import Portfolio from './components/AboutCards';
+import AboutCards from './components/AboutCards';
+import Features from './components/Features';
 
 
 const MyComponent: React.FC = () => {
@@ -19,7 +20,8 @@ const MyComponent: React.FC = () => {
         <Navbar />
         <Hero />
         <About />
-        <Portfolio />
+        <AboutCards />
+        <Features />
     </>
   );
 };
