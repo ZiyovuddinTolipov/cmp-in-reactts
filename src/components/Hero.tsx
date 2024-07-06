@@ -2,7 +2,7 @@
 
 import womanImg from "../assets/woman.png"
 import icon from "../assets/icon1.png"
-import graphicon from "../assets/graph.png"
+import graphicon from "../assets/graph1.png"
 import Rectangle from "../assets/Rectangle.png"
 const Hero = () => {
     return (
