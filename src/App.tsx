@@ -4,7 +4,7 @@ import 'aos/dist/aos.css';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
-import Portfolio from './components/Portfolio';
+import Portfolio from './components/AboutCards';
 
 
 const MyComponent: React.FC = () => {
