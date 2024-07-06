@@ -6,6 +6,7 @@ import Hero from './components/Hero';
 import About from './components/About';
 import AboutCards from './components/AboutCards';
 import Features from './components/Features';
+import Portfolio from './components/Portfolio';
 
 
 const MyComponent: React.FC = () => {
@@ -22,6 +23,7 @@ const MyComponent: React.FC = () => {
         <About />
         <AboutCards />
         <Features />
+        <Portfolio />
     </>
   );
 };
