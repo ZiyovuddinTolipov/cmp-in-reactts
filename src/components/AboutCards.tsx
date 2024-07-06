@@ -9,7 +9,7 @@ const Portfolio = () => {
         boxTitle:"mt-10 mb-2 text-xl font-semibold"
     }
     return (
-        <div id="portfolio" className='h-[80vh] relative flex gap-4 max-w-[1200px] mx-auto items-center '>
+        <div id="about-cards" className='h-[80vh] relative flex gap-4 max-w-[1200px] mx-auto items-center '>
             <div className={styles.box} data-aos="fade-right">
                 <img src={portfolio1} alt="icon consulting" />
                 <h3 className={styles.boxTitle}>Consulting</h3>
