@@ -6,7 +6,7 @@ import woman from "../assets/woman.png";
 
 const About = () => {
     return (
-        <div id="about" className="flex mt-10 bg-transparent w-full max-w-[1200px] mx-auto">
+        <div id="about" className="flex mt-10 bg-transparent w-full max-w-[1200px] mx-auto h-[80vh]">
             <div className="w-1/2 relative">
                 <img className="absolute -left-5 top-5 h-[450px]" src={woman} alt="icon woman" data-aos="fade-up-right" />
                 <img className="absolute -left-10 top-[300px]" src={rectangle} alt="icon rectangle" data-aos="zoom-in" />
