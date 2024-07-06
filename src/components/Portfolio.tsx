@@ -46,6 +46,9 @@ const Portfolio = () => {
                     <p className='text-center text-primary-50'>Daily classes he no longer collapsed</p>
                 </div>
             </div>
+            <div data-aos="zoom-in" className='my-5 text-center'>
+                <button className='btn btn-warning uppercase'>Browse All</button>
+            </div>
         </div>
     )
 }
