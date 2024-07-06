@@ -7,6 +7,7 @@ import About from './components/About';
 import AboutCards from './components/AboutCards';
 import Features from './components/Features';
 import Portfolio from './components/Portfolio';
+import Sponsors from './components/Sponsors';
 
 
 const MyComponent: React.FC = () => {
@@ -24,6 +25,7 @@ const MyComponent: React.FC = () => {
         <AboutCards />
         <Features />
         <Portfolio />
+        <Sponsors />
     </>
   );
 };
