@@ -4,7 +4,7 @@ import heavenly from '../assets/Heavenly-Bodies.jpg'
 import gravity from '../assets/gravity.jpg'
 const Portfolio = () => {
     return (
-        <div id="portfolio" className=" max-w-[1200px] mx-auto">
+        <div id="portfolio" className=" max-w-[1200px] mx-auto h-auto">
             <div className="text-center">
                 <h4 className="text-xl text-red-400 font-semibold" data-aos="zoom-in" data-aos-duration="300">Portfolio</h4>
                 <h2 className="text-6xl font-semibold" data-aos="zoom-in" data-aos-duration="900">Company Cases</h2>
