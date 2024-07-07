@@ -8,6 +8,7 @@ import AboutCards from './components/AboutCards';
 import Features from './components/Features';
 import Portfolio from './components/Portfolio';
 import Sponsors from './components/Sponsors';
+import Service from './components/Service';
 
 
 const MyComponent: React.FC = () => {
@@ -19,13 +20,14 @@ const MyComponent: React.FC = () => {
   }, []);
   return (
     <>
-        <Navbar />
-        <Hero />
-        <About />
-        <AboutCards />
-        <Features />
-        <Portfolio />
-        <Sponsors />
+      <Navbar />
+      <Hero />
+      <About />
+      <AboutCards />
+      <Features />
+      <Portfolio />
+      <Sponsors />
+      <Service />
     </>
   );
 };
