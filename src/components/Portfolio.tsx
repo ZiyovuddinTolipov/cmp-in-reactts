@@ -1,7 +1,8 @@
 import mars from '../assets/mars.jpg'
-import liberalEducation from "../assets/Liberal-Education.jpg"
-import heavenly from '../assets/Heavenly-Bodies.jpg'
-import gravity from '../assets/gravity.jpg'
+import liberalEducation from "../assets/Liberal-Education.jpg";
+import heavenly from '../assets/Heavenly-Bodies.jpg';
+import gravity from '../assets/gravity.jpg';
+
 const Portfolio = () => {
     return (
         <div id="portfolio" className=" max-w-[1200px] mx-auto h-auto">
