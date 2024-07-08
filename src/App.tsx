@@ -9,6 +9,7 @@ import Features from './components/Features';
 import Portfolio from './components/Portfolio';
 import Sponsors from './components/Sponsors';
 import Service from './components/Service';
+import Service2 from './components/Service2';
 
 
 const MyComponent: React.FC = () => {
@@ -28,6 +29,7 @@ const MyComponent: React.FC = () => {
       <Portfolio />
       <Sponsors />
       <Service />
+      <Service2 />
     </>
   );
 };
