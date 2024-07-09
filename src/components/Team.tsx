@@ -40,7 +40,6 @@ const Slider: React.FC = () => {
                         className={`p-4 rounded-lg shadow-md ${item.color} scale-105`}
                         style={{ transition: 'transform 0.3s ease-in-out' }}
                     >
-                        <img src="https://i.imgur.com/ghe4PZJ.jpeg" alt=""  />
                         <div className="w-40 h-40 mb-4 rounded-lg bg-white"></div>
                         <div className="text-center">
                             <h2 className="font-bold">{item.name}</h2>
