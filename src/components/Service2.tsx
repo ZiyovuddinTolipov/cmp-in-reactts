@@ -1,11 +1,11 @@
-import service2 from '../assets/service2.png';
+
 
 const Service2 = () => {
     return (
         <section className='w-full  bg-[#F07566] h-[25rem]'>
             <main className='flex max-w-[1200px] mx-auto justify-between'>
                 <div className='w-1/2' data-aos="zoom-in" data-aos-duration="1000">
-                    <svg className='h-[120%] max-h-[508px] relative -top-[10%]' width="371" height="508" viewBox="0 0 371 508" fill="none" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink">
+                    <svg className='h-[120%] max-h-[508px] relative -top-[10%]' width="371" height="508" viewBox="0 0 371 508" fill="none" xmlns="http://www.w3.org/2000/svg" xlinkHref="http://www.w3.org/1999/xlink">
                         <rect width="371" height="508" fill="url(#pattern0_0_1)" />
                         <rect x="142" y="194" width="128" height="128" rx="8" fill="#FBD34B" />
                         <path d="M225 258L195 277V239L225 258Z" fill="white" />
